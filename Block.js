@@ -1,7 +1,6 @@
 var CryptoJS = require("crypto-js")
 var fs = require('fs')
 
-//Temp comment
 class Block {
     constructor(index, previousHash, timestamp, data) {
             this.index = index
